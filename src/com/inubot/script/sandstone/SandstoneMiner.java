@@ -35,6 +35,7 @@ public class SandstoneMiner extends TaskScript {
   public Class<? extends Task>[] tasks() {
     return ArrayUtils.getTypeSafeArray(
         ToggleRunTask.class,
+        HumidifyTask.class,
         MineTask.class,
         StoreTask.class
     );
